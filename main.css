@@ -87,5 +87,17 @@ body {
   cursor: pointer;
   border: none;
   padding: 20px 78px 20px 78px;
-  border-radius: 45px;
+  border-radius: 2.8125rem;
+}
+
+.main__btn2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 146%;
+  letter-spacing: -3%;
+  color: #D9D9D9;
+  background-color: #121517;
+  cursor: pointer;
+  padding: 20px 54px;
+  border-radius: 2.8125rem;
 }
