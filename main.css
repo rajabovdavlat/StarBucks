@@ -123,15 +123,21 @@ body {
 }
 
 .dop__info{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8.625rem;
   margin-top: 8.125rem;
-  padding: 40px 70px;
+  padding: 40px 0;
   background-color: #E5E5E5;
   border-radius: 2.875rem;
+}
 
+.star__img{
+  position: absolute;
+  left: -90px;
+  top: -90px;
 }
 
 .dop__inof-img{
