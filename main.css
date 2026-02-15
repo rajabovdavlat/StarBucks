@@ -45,7 +45,7 @@ body {
 .main__wrapper {
   display: flex;
   justify-content: space-between;
-}
+} 
 
 .main__title {
   font-weight: 800;
