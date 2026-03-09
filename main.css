@@ -61,7 +61,6 @@ body {
   font-weight: 800;
   font-size: 5rem;
   letter-spacing: -0.1875rem;
-  color: #237249;
   color: #35c66b;
 }
 
@@ -87,7 +86,6 @@ body {
   line-height: 146%;
   letter-spacing: -2%;
   color: #ffffff;
-  background-color: #237249;
   background-color: #35c66b;
   cursor: pointer;
   border: none;
@@ -140,7 +138,7 @@ body {
   top: -90px;
 }
 
-.dop__inof-img{
+.dop__info-img{
   width: 146px;
   height: 170px;
 }
@@ -157,8 +155,7 @@ body {
 .story__wrapper{
   display: flex;
   gap: 12.5rem;
-  /* align-tems: center; */
-  /* text-align: center; */
+  align-items: center;
 }
 
 .story__card{
@@ -177,7 +174,6 @@ body {
 }
 
 .story__title span{
-  color: #237249;
   color: #35c66b;
 }
 
@@ -201,10 +197,377 @@ body {
   left: 34%;
   font-weight: 636;
   color: #FFFFFF;
-  background-color: #237249;
+  background-color: #35C66B;
   padding: 20px 40px;
   border-radius: 25px;
-  background: #35C66B;
   cursor: pointer;
   border: none;
+}
+
+/* New styles for Menu section */
+.menu {
+  padding: 6.25rem 0;
+}
+
+.menu__title {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.menu__desc {
+  font-size: 1.25rem;
+  color: #d9d9d9;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.menu__item {
+  background: #1a1d20;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: #d9d9d9;
+  max-width: 300px;
+}
+
+.menu__item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu__item h3 {
+  font-size: 1.5rem;
+  color: #35c66b;
+}
+
+.menu__item p {
+  font-size: 1rem;
+}
+
+.menu__item span {
+  display: block;
+  font-size: 1.25rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+/* New styles for Shop section */
+.shop {
+  padding: 6.25rem 0;
+  background: #0e1012;
+}
+
+.shop__title {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.shop__desc {
+  font-size: 1.25rem;
+  color: #d9d9d9;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.shop__items {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.shop__item {
+  background: #1a1d20;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: #d9d9d9;
+  max-width: 300px;
+}
+
+.shop__item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.shop__item h3 {
+  font-size: 1.5rem;
+  color: #35c66b;
+}
+
+.shop__item p {
+  font-size: 1rem;
+}
+
+.shop__item span {
+  display: block;
+  font-size: 1.25rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+/* New styles for Contact section */
+.contact {
+  padding: 6.25rem 0;
+}
+
+.contact__title {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact__desc {
+  font-size: 1.25rem;
+  color: #d9d9d9;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact__form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact__form input,
+.contact__form textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #1a1d20;
+  color: #d9d9d9;
+  font-size: 1rem;
+}
+
+.contact__form button {
+  padding: 1rem;
+  background: #35c66b;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+/* New styles for Footer */
+footer {
+  padding: 3rem 0;
+  background: #0e1012;
+  color: #d9d9d9;
+  text-align: center;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer__logo img {
+  height: 50px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer__links a {
+  color: #d9d9d9;
+  font-size: 1rem;
+}
+
+.footer__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__social img {
+  height: 24px;
+  cursor: pointer;
+}
+
+.footer__copyright {
+  font-size: 0.875rem;
+}
+
+/* Burger menu styles */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  width: 30px;
+  height: 3px;
+  background: #d9d9d9;
+  transition: 0.3s;
+}
+
+.burger-menu.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.pages.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background: #121517;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .main__title {
+    font-size: 4rem;
+  }
+
+  .main__title2 {
+    font-size: 4rem;
+  }
+
+  .main__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dop__info {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+  }
+
+  .star__img {
+    display: none;
+  }
+
+  .story__wrapper {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .menu__items,
+  .shop__items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__pages {
+    justify-content: space-between;
+  }
+
+  nav ul.pages {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .main__title {
+    font-size: 3rem;
+  }
+
+  .main__title2 {
+    font-size: 3rem;
+  }
+
+  .user {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .dop__info-wrap {
+    text-align: center;
+  }
+
+  .story__title {
+    font-size: 3rem;
+  }
+
+  .menu__title,
+  .shop__title,
+  .contact__title {
+    font-size: 3rem;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main__title {
+    font-size: 2.5rem;
+  }
+
+  .main__title2 {
+    font-size: 2.5rem;
+  }
+
+  .story__title {
+    font-size: 2.5rem;
+  }
+
+  .menu__title,
+  .shop__title,
+  .contact__title {
+    font-size: 2.5rem;
+  }
+
+  .main__btn {
+    flex-direction: column;
+  }
+
+  .main__btn1,
+  .main__btn2 {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .story__btn {
+    left: 20%;
+    bottom: 100px;
+    padding: 15px 30px;
+  }
 }

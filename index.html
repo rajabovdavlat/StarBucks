@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StarBucks</title>
+    <title>Starbucks</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
@@ -21,13 +21,21 @@
                 <a href="#" class="pages__title">Home</a>
               </li>
               <li>
-                <a href="#" class="pages__title">Select</a>
+                <a href="#menu" class="pages__title">Menu</a>
               </li>
               <li>
-                <a href="#" class="pages__title">Shop</a>
+                <a href="#shop" class="pages__title">Shop</a>
+              </li>
+              <li>
+                <a href="#contact" class="pages__title">Contact</a>
               </li>
             </ul>
           </nav>
+          <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
@@ -40,7 +48,7 @@
             <div>
               <h2 class="main__title">
                 New Cafe <br />
-                by <span class="main__title2">StarBucks</span>
+                by <span class="main__title2">Starbucks</span>
               </h2>
               <p class="main__desc">
                 Have time to buy the most harmonious drinks in the new Starbucks
@@ -79,7 +87,7 @@
             <img class="star__img" src="./img/svg/Star.svg" alt="star" />
             <div class="dop__info-wrap">
               <img
-                class="dop__inof-img"
+                class="dop__info-img"
                 src="./img/svg/heart.svg"
                 alt="heart"
               />
@@ -88,7 +96,7 @@
             </div>
             <div class="dop__info-wrap">
               <img
-                class="dop__inof-img"
+                class="dop__info-img"
                 src="./img/svg/rocket.svg"
                 alt="rocket"
               />
@@ -96,36 +104,142 @@
               <p>Our cafe will serve you quickly</p>
             </div>
             <div class="dop__info-wrap">
-              <img class="dop__inof-img" src="./img/svg/mony.svg" alt="mony" />
+              <img class="dop__info-img" src="./img/svg/mony.svg" alt="money" />
               <h3>Available</h3>
-              <p>Cafe will serveat the most pleasant prices</p>
+              <p>Cafe will serve at the most pleasant prices</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
-        <div class="our-story">
-          <div class="container">
-            <div class='story__wrapper'>
-              <img src="./img/png/cafe-interior.png" alt="" />
-              <div class='story__card'>
-                <h2 class='story__title'>We make <span>delicious</span></h2>
-                <p class='story__desc'>
-                  Only in 2021 we have made more than 100,000 orders for you,
-                  your loved ones, all of you, and in 2022 we are ready to
-                  destroy the market
-                </p>
-                <div class='img-btn'>
-                  <img class='' src="./img/png/cooking-process.png" alt="">
-                <button class='story__btn'>Cooking Process</button>
-                </div>
-
+      <section class="our-story">
+        <div class="container">
+          <div class="story__wrapper">
+            <img src="./img/png/cafe-interior.png" alt="Cafe Interior" />
+            <div class="story__card">
+              <h2 class="story__title">We make <span>delicious</span></h2>
+              <p class="story__desc">
+                Only in 2021 we have made more than 100,000 orders for you, your
+                loved ones, all of you, and in 2022 we are ready to destroy the
+                market
+              </p>
+              <div class="img-btn">
+                <img
+                  src="./img/png/cooking-process.png"
+                  alt="Cooking Process"
+                />
+                <button class="story__btn">Cooking Process</button>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- New section: Menu (added for completeness) -->
+      <section id="menu" class="menu">
+        <div class="container">
+          <h2 class="menu__title">Our Popular Menu</h2>
+          <p class="menu__desc">
+            Discover our selection of signature coffees and treats.
+          </p>
+          <div class="menu__items">
+            <div class="menu__item">
+              <img src="./img/png/latte.png" alt="Latte" />
+              <h3>Caramel Latte</h3>
+              <p>Smooth espresso with caramel and steamed milk.</p>
+              <span>$4.99</span>
+            </div>
+            <div class="menu__item">
+              <img src="./img/png/mocha.png" alt="Mocha" />
+              <h3>Americano</h3>
+              <p>Еspresso and hot water</p>
+              <span>$5.49</span>
+            </div>
+            <div class="menu__item">
+              <img src="./img/png/frappuccino.png" alt="Frappuccino" />
+              <h3>Frappuccino</h3>
+              <p>Iced blended coffee with whipped cream.</p>
+              <span>$5.99</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- New section: Shop (added for completeness) -->
+      <section id="shop" class="shop">
+        <div class="container">
+          <h2 class="shop__title">Shop Our Merchandise</h2>
+          <p class="shop__desc">
+            Get your favorite Starbucks gear and accessories.
+          </p>
+          <div class="shop__items">
+            <div class="shop__item">
+              <h3>Starbucks Mug</h3>
+              <p>Classic ceramic mug for your daily brew.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="shop__item">
+              <h3>Travel Tumbler</h3>
+              <p>Insulated tumbler to keep your drink hot or cold.</p>
+              <span>$19.99</span>
+            </div>
+            <div class="shop__item">
+              <h3>Coffee Beans</h3>
+              <p>Freshly roasted Starbucks coffee beans.</p>
+              <span>$9.99</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- New section: Contact (added for completeness) -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="contact__title">Get in Touch</h2>
+          <p class="contact__desc">
+            We'd love to hear from you! Reach out with any questions.
+          </p>
+          <form class="contact__form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
     </main>
+
+    <!-- Footer (added for completeness) -->
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logo">
+            <img src="./img/svg/StarBuckslogo.svg" alt="logo" />
+          </div>
+          <div class="footer__links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="footer__social">
+            <img src="./img/svg/facebook.svg" alt="Facebook" />
+            <img src="./img/svg/twitter.svg" alt="Twitter" />
+            <img src="./img/svg/instagram.svg" alt="Instagram" />
+          </div>
+        </div>
+        <p class="footer__copyright">
+          &copy; 2026 Starbucks. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const burger = document.querySelector(".burger-menu");
+      const nav = document.querySelector("nav ul.pages");
+      burger.addEventListener("click", () => {
+        nav.classList.toggle("active");
+        burger.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
